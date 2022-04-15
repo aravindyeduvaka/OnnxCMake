@@ -58,7 +58,7 @@ int main()
         }
         std::cout << "onnx Creating session" << std::endl;
         Ort::Session session_(
-            env, L"C:/repos/robosim/sdk/src/sensors/resnet18v2/resnet18-v2-7.onnx",
+            env, L"../../../../OnnxCMake/resnet18-v2-7.onnx",
             sessionOptions);
         std::cout << "onnx Created session" << std::endl;
         // auto name = session_.GetModelMetadata();
